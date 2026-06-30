@@ -17,14 +17,31 @@ REQUIRED_ARTICLE_IDS = [
 def get_articles():
     """Lấy danh sách bài viết từ Zendesk API (Giới hạn 30 bài + 3 bài Test)"""
     articles = []
-    
-    # Lấy 30 bài ngẫu nhiên đầu tiên (chỉ lấy 1 trang thay vì loop qua next_page)
-    print("Đang lấy 30 bài viết đầu tiên...")
-    url = f"{BASE_URL}/help_center/articles.json?per_page=30"
+    STATE_FILE = "scrape_state.json"
+    current_page = 1
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, "r") as f:
+            try:
+                state = json.load(f)
+                current_page = state.get("page", 1)
+            except:
+                pass
+
+    print(f"Đang lấy 30 bài viết ở Trang {current_page}...")
+    url = f"{BASE_URL}/help_center/articles.json?per_page=30&page={current_page}"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
         articles.extend(data['articles'])
+        
+        if data.get('next_page'):
+            next_page = current_page + 1
+        else:
+            next_page = 1
+            print("Đã cào đến trang cuối cùng. Đặt lại về Trang 1 cho lần chạy tiếp theo.")
+            
+        with open(STATE_FILE, "w") as f:
+            json.dump({"page": next_page}, f)
         
     # Lấy thêm 3 bài bắt buộc để pass bài test
     print("Đang lấy 3 bài viết bắt buộc để Test...")
