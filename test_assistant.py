@@ -13,7 +13,14 @@ load_dotenv()
 # Config
 COLLECTION_NAME = "optisigns_articles"
 EMBEDDING_MODEL = "gemini-embedding-001"
-QDRANT_URL = os.environ.get("QDRANT_URL", "http://localhost:6333")
+QDRANT_URL = os.environ.get("QDRANT_URL", "").strip()
+if not QDRANT_URL:
+    QDRANT_URL = "http://localhost:6333"
+
+if os.environ.get("GITHUB_ACTIONS") == "true" and ("localhost" in QDRANT_URL or QDRANT_URL == ""):
+    raise ValueError(f"\n[LỖI NGHIÊM TRỌNG] Github Actions không nhận được QDRANT_URL. "
+                     f"\nHãy kiểm tra lại trang Github: Settings -> Secrets and variables -> Actions. "
+                     f"\nĐảm bảo lưu ở mục 'Repository secrets', KHÔNG PHẢI mục 'Environment secrets' hay 'Variables'.")
 TOP_K = 5  # So luong chunks lien quan nhat de lay ra
 
 # Khoi tao clients

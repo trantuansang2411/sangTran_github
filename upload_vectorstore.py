@@ -21,7 +21,16 @@ EMBEDDING_MODEL = "gemini-embedding-001"
 VECTOR_SIZE = 3072  # Kich thuoc vector cua gemini-embedding-001
 CHUNK_SIZE = 800   # So tu toi da moi chunk
 CHUNK_OVERLAP = 100  # So tu chong lap giua cac chunk
-QDRANT_URL = os.environ.get("QDRANT_URL")
+QDRANT_URL = os.environ.get("QDRANT_URL", "").strip()
+if not QDRANT_URL:
+    QDRANT_URL = "http://localhost:6333"
+
+if os.environ.get("GITHUB_ACTIONS") == "true" and ("localhost" in QDRANT_URL or QDRANT_URL == ""):
+    raise ValueError(f"\n[LỖI NGHIÊM TRỌNG] Github Actions không nhận được QDRANT_URL (Đang bị rỗng hoặc là localhost). "
+                     f"\nHãy kiểm tra lại trang Github: Settings -> Secrets and variables -> Actions. "
+                     f"\nĐảm bảo bạn đã lưu Secret ở mục 'Repository secrets', KHÔNG PHẢI mục 'Environment secrets' hay 'Variables'. "
+                     f"\nĐảm bảo tên Secret viết hoa 100%: QDRANT_URL")
+
 UPLOADED_FILES_CACHE = "uploaded_files.json"
 
 # Khoi tao clients
