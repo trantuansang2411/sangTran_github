@@ -1,0 +1,45 @@
+name: Daily OptiSigns Scraper
+
+on:
+  schedule:
+    # Chay vao luc 00:00 UTC moi ngay (tuong duong 7h sang Viet Nam)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Cho phep an nut chay bang tay tren Github
+
+jobs:
+  scrape-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "latest"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: uv pip install -r requirements.txt --system
+
+      - name: Run Data Pipeline (Scrape & Upload to Qdrant Cloud)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+        run: |
+          python main.py
+
+      - name: Commit cache files (Neu co bai viet moi)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add article_hashes.json uploaded_files.json
+          # Chi commit neu co thay doi
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update article caches" && git push)

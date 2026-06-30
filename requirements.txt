@@ -1,0 +1,7 @@
+# requirements.txt
+requests
+markdownify
+beautifulsoup4
+google-genai
+python-dotenv
+qdrant-client
