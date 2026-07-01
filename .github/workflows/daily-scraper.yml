@@ -4,8 +4,6 @@ on:
   schedule:
     # Chay vao luc 00:00 UTC moi ngay (tuong duong 7h sang Viet Nam)
     - cron: '0 0 * * *'
-    # Chay them luc 03:10 UTC (10h10 sang Viet Nam) de demo
-    - cron: '10 3 * * *'
   workflow_dispatch:
     # Cho phep an nut chay bang tay tren Github
 
