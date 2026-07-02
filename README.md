@@ -128,3 +128,4 @@ Go to repo **Settings** → **Secrets and variables** → **Actions** → Add th
 ## 📸 Screenshot
 
 ![Assistant answering sample question](Screenshot/image.png)
+![Assistant answering sample question](Screenshot/AI_respond.png)
