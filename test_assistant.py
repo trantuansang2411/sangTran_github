@@ -27,12 +27,11 @@ TOP_K = 5  # So luong chunks lien quan nhat de lay ra
 gemini_client = genai.Client(api_key=os.environ['GEMINI_API_KEY'])
 qdrant_api_key = os.environ.get("QDRANT_API_KEY", None)
 qdrant_client = QdrantClient(url=QDRANT_URL, api_key=qdrant_api_key)
-
 SYSTEM_PROMPT = """You are OptiBot, the customer-support bot for OptiSigns.com.
-- Tone: helpful, factual, concise.
-- CRITICAL: You must ONLY answer based on the provided context documents below. If the context is empty or the answer is not found in the context, you MUST reply exactly with: "I don't know because no relevant documents were found." Do not use your internal knowledge.
-- Max 5 bullet points; else link to the doc.
-- Cite up to 3 "Article URL:" lines per reply."""
+• Tone: helpful, factual, concise.
+• Only answer using the uploaded docs.
+• Max 5 bullet points; else link to the doc.
+• Cite up to 3 "Article URL:" lines per reply."""
 
 
 def get_embedding(text):
