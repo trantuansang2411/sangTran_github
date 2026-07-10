@@ -383,5 +383,21 @@
   "how-to-use-market-index-app.md": "qdrant:1_chunks",
   "how-to-use-the-stock-app.md": "qdrant:1_chunks",
   "how-to-use-currency-exchange-app.md": "qdrant:1_chunks",
-  "how-to-use-the-guardian-app.md": "qdrant:1_chunks"
+  "how-to-use-the-guardian-app.md": "qdrant:1_chunks",
+  "how-to-use-the-cnn-news-app.md": "qdrant:1_chunks",
+  "how-to-use-the-techcrunch-news-app.md": "qdrant:1_chunks",
+  "how-to-use-rss-feeds-with-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-the-espn-news-app.md": "qdrant:1_chunks",
+  "how-to-use-microsoft-outlook-calendar-with-optisigns.md": "qdrant:2_chunks",
+  "how-to-display-microsoft-power-bi-dashboards-reports-with-optisigns.md": "qdrant:4_chunks",
+  "how-to-create-and-use-google-reviews-wall.md": "qdrant:1_chunks",
+  "how-to-use-google-calendar-with-optisigns.md": "qdrant:2_chunks",
+  "how-to-create-and-use-qr-code-call-to-action-app.md": "qdrant:1_chunks",
+  "how-to-create-and-use-yelp-reviews-wall.md": "qdrant:1_chunks",
+  "how-to-add-use-vimeo-video-with-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-the-news-app.md": "qdrant:1_chunks",
+  "how-to-use-the-website-app-and-display-urls-on-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-published-google-slides-with-optisigns-old-way.md": "qdrant:1_chunks",
+  "how-to-use-the-facebook-page-app.md": "qdrant:2_chunks",
+  "how-to-use-embed-app.md": "qdrant:1_chunks"
 }
