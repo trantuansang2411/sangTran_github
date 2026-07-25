@@ -403,5 +403,6 @@
   "how-to-display-a-snowflake-dashboard-with-optisigns.md": "qdrant:2_chunks",
   "what-access-does-optisigns-have-to-my-account-and-devices.md": "qdrant:2_chunks",
   "using-the-japan-earthquake-app.md": "qdrant:1_chunks",
-  "refer-earn-optisigns-referral-program.md": "qdrant:1_chunks"
+  "refer-earn-optisigns-referral-program.md": "qdrant:1_chunks",
+  "device-management-and-mass-provisioning.md": "qdrant:3_chunks"
 }
