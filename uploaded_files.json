@@ -404,5 +404,7 @@
   "what-access-does-optisigns-have-to-my-account-and-devices.md": "qdrant:2_chunks",
   "using-the-japan-earthquake-app.md": "qdrant:1_chunks",
   "refer-earn-optisigns-referral-program.md": "qdrant:1_chunks",
-  "device-management-and-mass-provisioning.md": "qdrant:3_chunks"
+  "device-management-and-mass-provisioning.md": "qdrant:3_chunks",
+  "how-to-display-databricks-dashboards-on-optisigns.md": "qdrant:3_chunks",
+  "optidev-add-on-free-trial-and-pricing.md": "qdrant:3_chunks"
 }
