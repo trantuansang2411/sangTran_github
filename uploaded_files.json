@@ -407,5 +407,6 @@
   "device-management-and-mass-provisioning.md": "qdrant:3_chunks",
   "how-to-display-databricks-dashboards-on-optisigns.md": "qdrant:3_chunks",
   "optidev-add-on-free-trial-and-pricing.md": "qdrant:3_chunks",
-  "how-to-use-the-viva-engage-app-formerly-yammer-on-optisigns.md": "qdrant:1_chunks"
+  "how-to-use-the-viva-engage-app-formerly-yammer-on-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-the-jira-formerly-atlassian-jira-app.md": "qdrant:1_chunks"
 }
