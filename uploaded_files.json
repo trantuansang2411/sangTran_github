@@ -415,5 +415,8 @@
   "generate-manage-an-optisigns-api-key.md": "qdrant:1_chunks",
   "how-to-use-the-website-screenshot-app.md": "qdrant:1_chunks",
   "how-to-use-the-on-this-day-app.md": "qdrant:1_chunks",
-  "how-to-use-the-calendar-mix-app.md": "qdrant:1_chunks"
+  "how-to-use-the-calendar-mix-app.md": "qdrant:1_chunks",
+  "how-to-use-the-currency-exchange-app.md": "qdrant:1_chunks",
+  "how-to-use-the-crypto-index-crypto-exchange-app.md": "qdrant:1_chunks",
+  "how-to-use-the-guardian-news-app.md": "qdrant:1_chunks"
 }
