@@ -418,5 +418,8 @@
   "how-to-use-the-calendar-mix-app.md": "qdrant:1_chunks",
   "how-to-use-the-currency-exchange-app.md": "qdrant:1_chunks",
   "how-to-use-the-crypto-index-crypto-exchange-app.md": "qdrant:1_chunks",
-  "how-to-use-the-guardian-news-app.md": "qdrant:1_chunks"
+  "how-to-use-the-guardian-news-app.md": "qdrant:1_chunks",
+  "how-to-use-the-simple-calendar-app.md": "qdrant:1_chunks",
+  "how-to-use-the-cnn-wall-app.md": "qdrant:1_chunks",
+  "how-to-create-and-use-the-yelp-app.md": "qdrant:1_chunks"
 }
