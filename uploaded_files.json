@@ -424,5 +424,8 @@
   "how-to-create-and-use-the-yelp-app.md": "qdrant:1_chunks",
   "how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md": "qdrant:1_chunks",
   "broadcast-send-scheduled-snapshots-of-your-dashboards.md": "qdrant:3_chunks",
-  "connect-sharepoint-news-to-optisigns-digital-signage.md": "qdrant:4_chunks"
+  "connect-sharepoint-news-to-optisigns-digital-signage.md": "qdrant:4_chunks",
+  "how-to-change-engagekiosk-style-preferences.md": "qdrant:1_chunks",
+  "sharing-playlists-and-folders-with-external-users.md": "qdrant:2_chunks",
+  "feeds-and-how-to-use-them.md": "qdrant:1_chunks"
 }
