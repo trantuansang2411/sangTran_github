@@ -427,5 +427,7 @@
   "connect-sharepoint-news-to-optisigns-digital-signage.md": "qdrant:4_chunks",
   "how-to-change-engagekiosk-style-preferences.md": "qdrant:1_chunks",
   "sharing-playlists-and-folders-with-external-users.md": "qdrant:2_chunks",
-  "feeds-and-how-to-use-them.md": "qdrant:1_chunks"
+  "feeds-and-how-to-use-them.md": "qdrant:1_chunks",
+  "using-rs232-to-schedule-tv-power-onoff-or-other-commands.md": "qdrant:2_chunks",
+  "build-integrations-using-the-optisigns-enterprise-app.md": "qdrant:2_chunks"
 }
