@@ -430,5 +430,6 @@
   "feeds-and-how-to-use-them.md": "qdrant:1_chunks",
   "using-rs232-to-schedule-tv-power-onoff-or-other-commands.md": "qdrant:2_chunks",
   "build-integrations-using-the-optisigns-enterprise-app.md": "qdrant:2_chunks",
-  "setting-up-audit-logging.md": "qdrant:1_chunks"
+  "setting-up-audit-logging.md": "qdrant:1_chunks",
+  "how-to-use-the-youtube-playlist-app-with-optisigns.md": "qdrant:1_chunks"
 }
