@@ -431,5 +431,6 @@
   "using-rs232-to-schedule-tv-power-onoff-or-other-commands.md": "qdrant:2_chunks",
   "build-integrations-using-the-optisigns-enterprise-app.md": "qdrant:2_chunks",
   "setting-up-audit-logging.md": "qdrant:1_chunks",
-  "how-to-use-the-youtube-playlist-app-with-optisigns.md": "qdrant:1_chunks"
+  "how-to-use-the-youtube-playlist-app-with-optisigns.md": "qdrant:1_chunks",
+  "multilingual-and-multi-currency-options.md": "qdrant:1_chunks"
 }
