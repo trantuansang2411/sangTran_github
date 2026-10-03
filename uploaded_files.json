@@ -432,5 +432,12 @@
   "build-integrations-using-the-optisigns-enterprise-app.md": "qdrant:2_chunks",
   "setting-up-audit-logging.md": "qdrant:1_chunks",
   "how-to-use-the-youtube-playlist-app-with-optisigns.md": "qdrant:1_chunks",
-  "multilingual-and-multi-currency-options.md": "qdrant:1_chunks"
+  "multilingual-and-multi-currency-options.md": "qdrant:1_chunks",
+  "how-to-display-grafana-dashboards-on-optisigns.md": "qdrant:4_chunks",
+  "using-the-japan-transit-app.md": "qdrant:3_chunks",
+  "using-the-x-social-app-add-on.md": "qdrant:3_chunks",
+  "how-to-use-the-weather-radar-app.md": "qdrant:2_chunks",
+  "using-the-flight-schedule-app.md": "qdrant:3_chunks",
+  "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md": "qdrant:5_chunks",
+  "inbound-webhook-datasources-in-designer.md": "qdrant:4_chunks"
 }
