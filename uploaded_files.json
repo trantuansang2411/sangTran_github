@@ -439,5 +439,7 @@
   "how-to-use-the-weather-radar-app.md": "qdrant:2_chunks",
   "using-the-flight-schedule-app.md": "qdrant:3_chunks",
   "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md": "qdrant:5_chunks",
-  "inbound-webhook-datasources-in-designer.md": "qdrant:4_chunks"
+  "inbound-webhook-datasources-in-designer.md": "qdrant:4_chunks",
+  "how-to-use-the-mondaycom-app.md": "qdrant:1_chunks",
+  "how-to-display-a-smartsheet-report-on-optisigns.md": "qdrant:1_chunks"
 }
