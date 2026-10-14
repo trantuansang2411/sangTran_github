@@ -441,5 +441,11 @@
   "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md": "qdrant:5_chunks",
   "inbound-webhook-datasources-in-designer.md": "qdrant:4_chunks",
   "how-to-use-the-mondaycom-app.md": "qdrant:1_chunks",
-  "how-to-display-a-smartsheet-report-on-optisigns.md": "qdrant:1_chunks"
+  "how-to-display-a-smartsheet-report-on-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-the-matterport-app.md": "qdrant:1_chunks",
+  "how-to-use-the-notion-app.md": "qdrant:1_chunks",
+  "how-to-display-microsoft-teams-chat-on-optisigns.md": "qdrant:1_chunks",
+  "how-to-use-the-microsoft-teams-meeting-app.md": "qdrant:1_chunks",
+  "how-to-use-the-slack-app.md": "qdrant:2_chunks",
+  "how-to-use-the-asana-app.md": "qdrant:1_chunks"
 }
