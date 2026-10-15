@@ -447,5 +447,9 @@
   "how-to-display-microsoft-teams-chat-on-optisigns.md": "qdrant:1_chunks",
   "how-to-use-the-microsoft-teams-meeting-app.md": "qdrant:1_chunks",
   "how-to-use-the-slack-app.md": "qdrant:2_chunks",
-  "how-to-use-the-asana-app.md": "qdrant:1_chunks"
+  "how-to-use-the-asana-app.md": "qdrant:1_chunks",
+  "how-to-use-the-trello-app.md": "qdrant:2_chunks",
+  "how-to-use-the-zendesk-app.md": "qdrant:1_chunks",
+  "how-to-use-the-twitch-app.md": "qdrant:1_chunks",
+  "how-to-use-the-dropbox-app.md": "qdrant:2_chunks"
 }
