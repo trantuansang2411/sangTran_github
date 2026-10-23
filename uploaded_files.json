@@ -455,5 +455,7 @@
   "how-to-display-vimeo-videos-with-optisigns.md": "qdrant:2_chunks",
   "how-to-use-the-eventbrite-events-app.md": "qdrant:2_chunks",
   "how-to-use-the-air-quality-index-app.md": "qdrant:2_chunks",
-  "how-to-display-datadog-dashboards-on-optisigns.md": "qdrant:3_chunks"
+  "how-to-display-datadog-dashboards-on-optisigns.md": "qdrant:3_chunks",
+  "how-to-display-content-from-websites-that-require-a-login.md": "qdrant:2_chunks",
+  "how-to-use-the-jira-app.md": "qdrant:2_chunks"
 }
