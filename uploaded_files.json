@@ -470,5 +470,7 @@
   "how-to-use-the-google-reviews-app.md": "qdrant:3_chunks",
   "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md": "qdrant:2_chunks",
   "lg-webos-smart-tvs-consumer-grade.md": "qdrant:1_chunks",
-  "preventing-the-optisigns-app-from-turning-on-your-screen.md": "qdrant:1_chunks"
+  "preventing-the-optisigns-app-from-turning-on-your-screen.md": "qdrant:1_chunks",
+  "set-up-add-or-unpair-a-screen.md": "qdrant:2_chunks",
+  "custom-branding-settings-and-branded-portals.md": "qdrant:2_chunks"
 }
